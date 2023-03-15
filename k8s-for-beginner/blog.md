@@ -5,12 +5,12 @@ But when more and more containers started getting deployed it became difficult f
 ## <u>History of Kubernetes</u>
 ![borg image](https://s3-eu-west-1.amazonaws.com/risingstack-resources/History+of+Kubernetes/borg-omega-and-kubernetes.jpg)
 Kubernetes is not so old it was built by google so what happened is that google was actually running such container technology internally in the company for a really long time with the help of an engine called BORG. So with the knowledge of BORG they created another container orchestration tool kubernetes and donated it to CNCF in 2015.
-[CNCF](https://landscape.cncf.io/) is the Cloud Native Computing Foundation and kubernetes was the first project to graduated from here. Kubernetes is also known as k8s (pronounced as kates) because eight letters are present in between ‘k’ and ‘s’ in kubernetes.
+[CNCF](https://landscape.cncf.io/) is the Cloud Native Computing Foundation and kubernetes was the first project to graduate from there. Kubernetes is also known as k8s (pronounced as kates) because eight letters are present in between ‘k’ and ‘s’ in kubernetes.
 
-Now when k8s start getting popular most of the cloud providers started providing native support for it like GCP provides GKE(Google Kubernetes Engine), Azure provides AKS(Azure kubernetes service), AWS provides EKS(Elastic kubernetes service) and since this project was open source so a large community from around the world started improving it.
+Now when k8s started getting popular most of the cloud providers started providing native support for it like GCP provides GKE(Google Kubernetes Engine), Azure provides AKS(Azure kubernetes service), AWS provides EKS(Elastic kubernetes service) and since this project was open source so a large community from around the world started improving it.
 
 ## <u>Setting up the environment</u>
-Now we will set up the kubernetes in our local system. But if you face any issue you always feel free to check the official documentation.
+Now we will set up the kubernetes in our local system. But if you face any issue always feel free to check the official documentation.
 If you are running the k8s in your local system you need to set up kubectl which is a kubernetes command line tool that allows you to run commands against kubernetes clusters and minikube which provides a virtual environment for running clusters inside your computer.
 
 - [Install kubectl in Linux](https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/)
